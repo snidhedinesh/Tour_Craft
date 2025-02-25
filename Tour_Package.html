@@ -1,0 +1,473 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TourKraft Navbar</title>
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link href='https://fonts.googleapis.com/css?family=Poppins' rel='stylesheet'>
+    <link rel="stylesheet" href="bootstrap/style.css">
+
+</head>
+
+<body>
+
+
+    <nav class="navbar top-navbar">
+        <div class="nav-container d-flex align-items-center justify-content-between">
+
+            <img src="bootstrap/images/logo.webp" alt="" class="logo-img">
+
+            <div class="search-container">
+                <div class="search-box">
+                    <i class="bi bi-search"></i>
+                    <input type="text" placeholder='Search "Gulmarg"'>
+                    <div class="icon-bg">
+                        <i class="bi bi-mic-fill"></i>
+                    </div>
+                </div>
+            </div>
+
+
+
+            <div class="d-flex icon-gap">
+                <div class="dropdown">
+                    <button class="phone-btn dropdown-toggle" type="button" data-bs-toggle="dropdown"
+                        aria-expanded="false"><label class="icon-nav"><i class="bi bi-telephone-fill"></i></label> +91
+                        9157274775</button>
+                    <ul class="dropdown-menu">
+                        <li><a class="dropdown-item" href="tel:+919157274775">Call Now</a></li>
+                        <li><a class="dropdown-item" href="mailto:example@email.com">Email Support</a></li>
+                    </ul>
+                </div>
+                <button class="sign-in-btn"> <label class="icon-nav"><i class="bi bi-person-fill"></i></label> Sign
+                    In</button>
+            </div>
+        </div>
+    </nav>
+
+
+    <nav class="navbar navbar-expand-lg nav-links">
+        <div class="container">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="tel:+919157274775">Call Now</a></li>
+                <li><a class="dropdown-item" href="mailto:example@email.com">Email Support</a></li>
+            </ul>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav mx-auto nav-gap">
+
+
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown">India</a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#">Kerala</a></li>
+                            <li><a class="dropdown-item" href="#">Rajasthan</a></li>
+                            <li><a class="dropdown-item" href="#">Goa</a></li>
+                        </ul>
+                    </li>
+
+
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown">World</a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#">Europe</a></li>
+                            <li><a class="dropdown-item" href="#">Asia</a></li>
+                            <li><a class="dropdown-item" href="#">Africa</a></li>
+                        </ul>
+                    </li>
+
+
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown">Specialty Tours</a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#">Honeymoon Packages</a></li>
+                            <li><a class="dropdown-item" href="#">Adventure Tours</a></li>
+                            <li><a class="dropdown-item" href="#">Wildlife Tours</a></li>
+                        </ul>
+                    </li>
+
+
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown">Customized Holidays</a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#">Family Holidays</a></li>
+                            <li><a class="dropdown-item" href="#">Luxury Travel</a></li>
+                        </ul>
+                    </li>
+
+
+                    <li class="nav-item"><a class="nav-link" href="#">Corporate Travel</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#">Inbound</a></li>
+
+
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown">Forex</a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#">Currency Exchange</a></li>
+                            <li><a class="dropdown-item" href="#">Travel Cards</a></li>
+                        </ul>
+                    </li>
+
+
+                    <li class="nav-item"><a class="nav-link" href="#">Gift A Tour</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#">Contact Us</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <div>
+        <div class="image-section-new">
+            <div class="text-box">
+                <label class="text2">WORLD TOUR PACKAGES</label>
+            </div>
+
+        </div>
+    </div>
+
+    <div class="container my-4">
+        <div class="row">
+
+            <!-- Sidebar Filters -->
+            <aside class="col-lg-3 col-md-4 mb-4">
+                <div class="filter-box">
+                    <h5 class="fw-bold">Sort By</h5>
+                    <a href="">Price: Low to High</a>
+                    <a href="">Price: High to Low</a>
+                    <a href="">Popularity</a>
+                    <a href="">Newest First</a>
+                    <div class="justify-content-end d-flex">
+                        <button class=" apply-btn">Apply</button>
+
+                    </div>
+                </div>
+
+                <div class="filter-box">
+                    <h5 class="fw-bold">Price</h5>
+                    <div class="d-flex justify-content-between">
+                        <p>₹49999</p>
+                        <p>₹24999</p>
+                    </div>
+                    <input type="range" class="form-range custom-range" min="4999" max="24999">
+                    <p class="text-muted">Until <strong>₹12,000</strong></p>
+                    <div class="justify-content-end d-flex">
+                        <button class=" apply-btn">Apply</button>
+
+                    </div>
+                </div>
+
+                <div class="filter-box">
+                    <h5 class="fw-bold">Top Filters</h5>
+                    <div class="filter-check">
+                        <input type="checkbox" class="custom-checkbox" id="checkbox1">
+                        <label for="checkbox1">Same Day Check-In</label>
+                    </div>
+                    <div class="filter-check">
+                        <input type="checkbox" class="custom-checkbox" id="checkbox1">
+                        <label for="checkbox1">For Couples</label>
+                    </div>
+                    <div class="filter-check">
+                        <input type="checkbox" class="custom-checkbox" id="checkbox1">
+                        <label for="checkbox1">Pocket Friendly</label>
+                    </div>
+                    <div class="filter-check">
+                        <input type="checkbox" class="custom-checkbox" id="checkbox1">
+                        <label for="checkbox1">Pool Villa</label>
+                    </div>
+                    <a href="" class="">+ others</a>
+                    <div class="justify-content-end d-flex">
+                        <button class=" apply-btn">Apply</button>
+
+                    </div>
+                </div>
+            </aside>
+
+            <!-- Tour Listings -->
+            <div class="col-lg-9 col-md-8">
+                <div class="tour-card position-relative">
+                    <div class="row">
+                        <div class="col-4 d-flex">
+                            <img src="bootstrap/images/nepal.webp" alt="" width="100%">
+
+                        </div>
+                        <div class="col-8">
+                            <div class="tour-inner-card">
+
+
+                                <!-- Heart Icon -->
+                                <div class="heart-icon">
+                                    <i class="bi bi-heart"></i>
+                                </div>
+
+                                <!-- Tour Header -->
+                                <div class="d-flex"><span class="badge badge-normal">GROUP TOUR</span>
+                                    <span class="badge badge-fill">Family</span>
+                                </div>
+
+                                <!-- Title -->
+                                <h2 class="tour-title">Best Of Nepal</h2>
+
+                                <!-- Reviews -->
+                                <div class="d-flex align-items-center">
+                                    <div class="stars">
+                                        <i class="bi bi-star-fill" style="color: #f28c18;"></i>
+                                        <i class="bi bi-star-fill" style="color: #f28c18;"></i>
+                                        <i class="bi bi-star-fill" style="color: #f28c18;"></i>
+                                        <i class="bi bi-star-fill" style="color: #f28c18;"></i>
+                                        <i class="bi bi-star" style="color: #f28c18;"></i> <!-- Empty Star -->
+                                    </div><label class="text-review m-1 "> 125 Reviews</label>
+                                </div>
+                                <!-- Icons -->
+                                <a href="" class="text-decoration-none tour-link"><i class="bi bi-infinity mx-2"></i>All inclusive
+                                    <i class="bi bi-info-circle mx-2"></i></a>
+
+                                <!-- Tour Details -->
+                                <div class="tour-details">
+                                    <div class="tour-stats">
+                                        <p><strong>Days</strong></p>
+                                        <span><strong>8</strong></span>
+                                    </div>
+                                    <div class="tour-stats">
+                                        <p><strong>Destinations</strong></p>
+                                        <p class="highlight-text">1 Country 3 Cities</p>
+                                    </div>
+                                    <div class="tour-stats">
+                                        <p><strong>Departures</strong></p>
+                                        <span class="highlight-text">17 Dates</span>
+                                        <span><strong>From 1 City</strong></span>
+                                    </div>
+                                    <div class="price-section">
+                                        <p class="price-text">Start From</p>
+                                        <label class="price-value">₹ 70,000</label>
+                                        <p class="subtext m-0">Per Person On Twin Sharing</p>
+                                        <button class="tour-button">View Tour Details</button>
+                                    </div>
+                                </div>
+                                <hr class="my-1">
+                                <p class="tour-icons">Tour Highlights</p>
+                                <label class="subtext">Manakamana Devi Temple, Folk Dance Of Nepal, Enjoy Your Best Nepal Safari Tour At
+                                    Chitwan, 8
+                                    Days Chitwan Jungle Safari Tour Is One Of The Rewarded Activities...
+                                    <strong>More</strong>
+                                </label>
+
+                            </div>
+                            <!-- Divider -->
+
+
+                            <!-- Tour Highlights -->
+                            
+
+                        </div>
+                    </div>
+                </div>
+                <div class="tour-card position-relative">
+                    <div class="row">
+                        <div class="col-4 d-flex">
+                            <img src="bootstrap/images/nepal.webp" alt="" width="100%">
+
+                        </div>
+                        <div class="col-8">
+                            <div class="tour-inner-card">
+
+
+                                <!-- Heart Icon -->
+                                <div class="heart-icon">
+                                    <i class="bi bi-heart"></i>
+                                </div>
+
+                                <!-- Tour Header -->
+                                <div class="d-flex"><span class="badge badge-normal">GROUP TOUR</span>
+                                    <span class="badge badge-fill">Family</span>
+                                </div>
+
+                                <!-- Title -->
+                                <h2 class="tour-title">Best Of Nepal</h2>
+
+                                <!-- Reviews -->
+                                <div class="d-flex align-items-center">
+                                    <div class="stars">
+                                        <i class="bi bi-star-fill" style="color: #f28c18;"></i>
+                                        <i class="bi bi-star-fill" style="color: #f28c18;"></i>
+                                        <i class="bi bi-star-fill" style="color: #f28c18;"></i>
+                                        <i class="bi bi-star-fill" style="color: #f28c18;"></i>
+                                        <i class="bi bi-star" style="color: #f28c18;"></i> <!-- Empty Star -->
+                                    </div><label class="text-review m-1 "> 125 Reviews</label>
+                                </div>
+                                <!-- Icons -->
+                                <a href="" class="text-decoration-none tour-link"><i class="bi bi-infinity mx-2"></i>All inclusive
+                                    <i class="bi bi-info-circle mx-2"></i></a>
+
+                                <!-- Tour Details -->
+                                <div class="tour-details">
+                                    <div class="tour-stats">
+                                        <p><strong>Days</strong></p>
+                                        <span><strong>8</strong></span>
+                                    </div>
+                                    <div class="tour-stats">
+                                        <p><strong>Destinations</strong></p>
+                                        <p class="highlight-text">1 Country 3 Cities</p>
+                                    </div>
+                                    <div class="tour-stats">
+                                        <p><strong>Departures</strong></p>
+                                        <span class="highlight-text">17 Dates</span>
+                                        <span><strong>From 1 City</strong></span>
+                                    </div>
+                                    <div class="price-section">
+                                        <p class="price-text">Start From</p>
+                                        <label class="price-value">₹ 70,000</label>
+                                        <p class="subtext m-0">Per Person On Twin Sharing</p>
+                                        <button class="tour-button">View Tour Details</button>
+                                    </div>
+                                </div>
+                                <hr class="my-1">
+                                <p class="tour-icons">Tour Highlights</p>
+                                <label class="subtext">Manakamana Devi Temple, Folk Dance Of Nepal, Enjoy Your Best Nepal Safari Tour At
+                                    Chitwan, 8
+                                    Days Chitwan Jungle Safari Tour Is One Of The Rewarded Activities...
+                                    <strong>More</strong>
+                                </label>
+
+                            </div>
+                            <!-- Divider -->
+
+
+                            <!-- Tour Highlights -->
+                            
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+                
+
+                </div>
+            </div>
+        </div>
+        <div class="bottom-div">
+        <div class="container ">
+            <div class="row">
+                <div class="col-lg-4">
+                <div class="position-relative">
+                    <img src="bootstrap/images/india.webp" class="bottom-img position-relative " alt="" width="100%">
+                    <button class="destination-button">Indian Packages</button>
+                </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="position-relative">
+                        <img src="bootstrap/images/world.webp" class="bottom-img" alt="" width="100%">
+                        <button class="destination-button">World Packages</button>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="position-relative">
+                        <img src="bootstrap/images/all_packages.webp" class="bottom-img" alt="" width="100%">
+                        <button class="destination-button">All Packages</button>
+                    </div>
+                </div>
+
+
+            </div>
+        </div>
+        </div>
+
+        <div class="footer-top">
+            <div class="footer-section">
+                <h4>Call Us</h4>
+                <p>Request a quote, or just chat about your next vacation. We're always happy to help!</p>
+                <strong>+91 9157274775</strong>
+            </div>
+            <div class="footer-section">
+                <h4>Write To Us</h4>
+                <p>Be it an enquiry, feedback or a sview-moreple suggestion, write to us.</p>
+                <strong>tourkraftsindia@gmail.com</strong>
+            </div>
+            <div class="footer-section">
+                <h4>Contact Us</h4>
+                <p>Reviews, podcasts, blogs and more..</p>
+                <div class="social-icons">
+                    <label class="icon-nav"><i class="bi bi-telephone"></i></label>
+                    <label label class="icon-nav">
+                        <i class="bi bi-envelope"></i>
+
+                    </label>
+                    <label class="icon-nav"><i class="bi bi-whatsapp"></i></label>
+                    <label class="icon-nav"><i class="bi bi-facebook"></i></label>
+                    <label class="icon-nav"><i class="bi bi-instagram"></i></label>
+                    <label class="icon-nav"><i class="bi bi-twitter"></i></label>
+                </div>
+            </div>
+        </div>
+        <footer class="footer">
+
+
+            <div class="footer-middle">
+                <div class="footer-logo">
+                    <img src="bootstrap/images/logo_footer.png" alt="Tourkrafts Logo">
+                    <h6>Your Gateway To The World</h6>
+                    <p>Request a quote, or just chat about your next vacation. We're always happy to help!</p>
+                </div>
+                <div class="footer-links">
+                    <h4>Company</h4>
+                    <ul>
+                        <li><a href="#">About Us</a></li>
+                        <li><a href="#">Our Team</a></li>
+                        <li><a href="#">CSR Policy</a></li>
+                        <li><a href="#">How Many Countries?</a></li>
+                    </ul>
+                </div>
+                <div class="footer-links">
+                    <h4>Support</h4>
+                    <ul>
+                        <li><a href="#">Contact Us</a></li>
+                        <li><a href="#">Leave Your Feedback</a></li>
+                        <li><a href="#">How To Book</a></li>
+                        <li><a href="#">FAQ</a></li>
+                    </ul>
+                </div>
+                <div class="footer-links">
+                    <h4>Resources</h4>
+                    <ul>
+                        <li><a href="#">Blog</a></li>
+                        <li><a href="#">News</a></li>
+                    </ul>
+                </div>
+                <div class="footer-form">
+                    <input type="text" placeholder="Full Name">
+                    <input type="text" placeholder="Phone Number">
+                    <input type="email" placeholder="Email">
+                    <textarea placeholder="Write Your Comment"></textarea>
+                    <button class="btn">View more</button>
+                </div>
+            </div>
+
+            <div class="footer-bottom">
+                <p>Tourkraft Copyright © 2024 Snowfinch</p>
+                <p><a href="#">Terms & Conditions</a> | <a href="#">Privacy & Cookie Policy</a></p>
+                <button class="scroll-top" onclick="scrollToTop()" id="backToTopBtn" title="Go to top">
+                    <i class="bi bi-arrow-up"></i>
+                </button>
+            </div>
+
+
+        </footer>
+        <script>
+
+
+            function scrollToTop() {
+                window.scrollTo({
+                    top: 0,
+                    behavior: "smooth"
+                });
+            }
+        </script>
+
+        <script src="bootstrap/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
